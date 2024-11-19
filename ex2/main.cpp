@@ -27,7 +27,7 @@ int main()
     Rectangle *rect3 = new Rectangle(12, 8);
     stockage.ajouter(1, rect3);
 
-    std::cout << "Informations des objets stockes : " << std::endl;
+    std::cout << "\n\n\n\n\n\nInformations des objets stockes : \n" << std::endl;
     stockage.afficherInfos();
 
     return 0;
