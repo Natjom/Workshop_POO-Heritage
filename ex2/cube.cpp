@@ -11,7 +11,7 @@ int Cube::getPerimetre()
     return (4 * dim1);
 }
 
-int Cube::getAire()
+float Cube::getAire()
 {
     return (dim1 * dim1);
 }

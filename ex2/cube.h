@@ -15,7 +15,7 @@ public:
     int getCote();
 
     virtual int getPerimetre() override;
-    virtual int getAire() override;
+    virtual float getAire() override;
     virtual string afficheInfo() const override;
 
 };

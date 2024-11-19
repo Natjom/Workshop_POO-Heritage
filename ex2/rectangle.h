@@ -10,7 +10,7 @@ class Rectangle : public Objet2D
 {
 public:
     Rectangle() {}
-    Rectangle(int tdim1, int tdim2) : Objet2D(tdim1, tdim2, 0, 0, 0, 0) {}
+    Rectangle(int tdim1, int tdim2) : Objet2D(tdim1, tdim2, 0, 90, 0, 0) {}
     ~Rectangle() {}
 
     int getLongueur();

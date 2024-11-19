@@ -24,8 +24,8 @@ float Triangle::getAire()
 
 string Triangle::afficheInfo() const
 {
-    cout << "Triangle :\n"
-         << "Côté 1 : " << dim1 << "\n"
-         << "Côté 2 : " << dim2 << "\n"
-         << "Côté 3 : " << dim3 << "\n";
+    return
+    "Cote 1 : " + to_string(dim1) + "\n" +
+    "Cote 2 : " + to_string(dim2) + "\n" +
+    "Cote 3 : " + to_string(dim3) + "\n";
 }
